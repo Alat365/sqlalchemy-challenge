@@ -1,1 +1,3 @@
 # sqlalchemy-challenge
+
+# In this week's challenge, I had some help from Charlotte Van Dyck and Mike Monary while developing the code for the climate_starter.ipynb. While working on the app.ipynb, I was able to generate a correct route for the start date; however, I had difficulties with generating a route for the date range from start to end. The code I ended up using was 'end = dt.datetime.strptime(end_date, "%Y-%m-%d").date() if end_date else dt.date.today()' where I looked up how to add the if/else statement in the variable in one line alongside the date formatting.
